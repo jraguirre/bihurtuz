@@ -4,3 +4,37 @@ html {
 body {
     background: linear-gradient(b5e48c, #457b9d);
 }
+
+.envolvente {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);    
+}
+.navegacion {
+    background-color: rgb(45, 97, 166);
+    overflow: hidden;
+
+  }
+  .navegacion a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navegacion a:hover {
+    background-color:  #25528d;
+    color: rgb(248, 247, 253);
+  }
+
+  .triangulo {
+      float: right;
+      width: 0;
+      height: 0;
+      border-top: 1000px solid #9abae4;
+      border-left: 300px solid transparent;
+  }
