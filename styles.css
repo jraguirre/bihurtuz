@@ -5,9 +5,12 @@ body {
     background: linear-gradient(b5e48c, #457b9d);
 }
 
+#fondo {
+    background-image: linear-gradient(#EFF1F2, #3EB8FF);
+}
 .envolvente {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 80% 20%;
     gap: 10px;
     grid-auto-rows: minmax(100px, auto);    
 }
